@@ -17,25 +17,34 @@ const d3 = Number(campo3.value);
 
 //Declaro los números de la contraseña
 
-const contrasena = (d1, d2, d3);
-const resultado = document.getElementById("validacion")
+const contrasena = ("d1", "d2", "d3");
+const mensaje = document.getElementById("msje")
 
 
 //Ejecuto la funcion condicional
-if (contrasena === 9, 1, 1) {
-    resultado.textContent = `password 1 es correcto`;
+if (contrasena = "9", "1", "1") {
+    mensaje.itextContent = `password 1 es correcto`;
 } else {
-    resultado.textContent = `password incorrecto`;
+    mensaje.textContent = `password incorrecto`;
 }
 
-if (contrasena === 7, 1, 4) {
-    resultado.textContent = `password 2 es correcto`;
+if (contrasena = "7", "1", "4") {
+    mensaje.textContent = `password 2 es correcto`;
 } else {
-    resultado.textContent = `password incorrecto`;
+    mensaje.textContent = `password incorrecto`;
 }
 
 }
 
+/*
+También se me ocurre que podría ser así, pero no se me ocurre cómo podría decir que debe ser true (9) true (9) true (9)
 
+if (d1 == 9) {
+d1= true;    
+} else {
+    d1 = false
+} 
+
+*/
 
 
