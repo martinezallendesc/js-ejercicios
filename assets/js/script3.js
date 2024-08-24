@@ -22,13 +22,13 @@ const mensaje = document.getElementById("msje")
 
 
 //Ejecuto la funcion condicional
-if (contrasena === 911) {
+if (contrasena === "911") {
     mensaje.itextContent = `password 1 es correcto`;
 } else {
     mensaje.textContent = `password incorrecto`;
 }
 
-if (contrasena === 714) {
+if (contrasena === "714") {
     mensaje.textContent = `password 2 es correcto`;
 } else {
     mensaje.textContent = `password incorrecto`;
