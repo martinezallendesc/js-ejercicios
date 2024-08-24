@@ -2,7 +2,7 @@ console.log("Estoy funcionando")
 
 
 
-calcular() {
+function calcular() {
 //Seleccionar el input y su valor
 const campo1 = document.getElementById("n1");
 const d1 = Number(campo1.value);
@@ -17,21 +17,21 @@ const d3 = Number(campo3.value);
 
 //Declaro los números de la contraseña
 
-const (contrasena = d1, d2, d3)
+const contrasena = (d1, d2, d3);
 const resultado = document.getElementById("validacion")
 
 
 //Ejecuto la funcion condicional
 if (contrasena === 9, 1, 1) {
-    resultado.textContent = `password 1 correcto`;
+    resultado.textContent = `password 1 es correcto`;
 } else {
-    resultado.textContent = `password incorrecto`
+    resultado.textContent = `password incorrecto`;
 }
 
 if (contrasena === 7, 1, 4) {
-    resultado.textContent = `password 1 correcto`;
+    resultado.textContent = `password 2 es correcto`;
 } else {
-    resultado.textContent = `password incorrecto`
+    resultado.textContent = `password incorrecto`;
 }
 
 }
