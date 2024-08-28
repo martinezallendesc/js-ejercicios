@@ -7,29 +7,45 @@
     <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
 <body>
-<div>
-    <div class="">
-        <img src="" alt="">
+
+<main>
+
+    <h1>Tienda de Stickers</h1>
+    <p>Selecciona la cantidad de stickers. Puedes elegir máximo 10 unidades de los siguientes diseños:</p>
+<div class="contenedor">
+
+<div class="columna">
+    <div class="contenedor-sticker">
+        <img src="./assets/img/dewey.png" alt="">
         <input type="number" id="sticker-1" min="1" max="10">
     </div>
 </div>
 
-<div>
-    <div class="">
-        <img src="" alt="">
+<div class="columna">
+    <div class="contenedor-sticker">
+        <img src="./assets/img/francis.png " alt="">
         <input type="number" id="sticker-2" min="1" max="10">
     </div>
 </div>
 
-<div>
-    <div class="">
-        <img src="" alt="">
+<div class="columna">
+    <div class="contenedor-sticker">
+        <img src="./assets/img/hallylouse.png " alt="">
         <input type="number" id="sticker-3" min="1" max="10">
     </div>
 </div>
 
-<p id="resultado"></p>
+</div>
+
+
+
+<div class="contenedor-boton">
+
 <button onclick="calcular()">Calcular</button>
+<p id="resultado"></p>
+</div>
+</div>
+</main>
     
 <script src="./assets/js/script2.js"></script>
 </body>
